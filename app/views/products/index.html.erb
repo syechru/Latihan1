@@ -1,0 +1,13 @@
+
+<h2>Products List</2>
+
+<div class="product-block">
+
+      <% @products.each do |product| %>
+        
+      <%= render "product_row", product: product, order_item: @order_item %>
+      <% end %>
+
+  <%= paginate @products %>
+</div>
+<br>
