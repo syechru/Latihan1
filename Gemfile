@@ -53,7 +53,7 @@ gem 'rolify'
 gem 'carrierwave', '~> 0.10.0'
 gem 'stripe'
 gem 'high_voltage'
-gem 'pundit'
+# gem 'pundit'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
